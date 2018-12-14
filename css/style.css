@@ -1,0 +1,28 @@
+*{background:#000; margin:0; padding:0;}
+body{max-height:1765px;}
+a{text-decoration:none;}
+#titulo-site{position:absolute; top:110px; left:40px; background:transparent;}
+.titulo1{color:#fff; font-size:75px; font-family:"Arial"; font-weight:700; position:relative; top:50px; background:transparent;}
+.titulo2{color:#fff; font-size:25px; font-family:"Arial"; font-weight:200; position:relative; top:65px; background:transparent;}
+#grey-part{background:#1C1C1C; height:160px; border-bottom:2px solid #4F4F4F;}
+.cancelar{color:#9C9C9C; cursor:pointer; font-size:17px; background:transparent; position: relative; top:25px; left:130px; font-family:"Arial"; font-weight:700;}
+.assistir{color:#9C9C9C; cursor:pointer; font-size:17px; background:transparent; position:relative; top:25px; left:130px; font-family:"Arial"; font-weight:700;}
+.price{color:#9C9C9C; cursor:pointer; font-size:17px; background:transparent; position:relative; top:25px; left:135px; font-family:"Arial"; font-weight:700;}
+.text-cancel{color:#fff; font-family:"Arial"; font-size:32px; text-align:left; font-weight:normal; position:relative; top:-250px; left:205px; background:transparent;}
+/*BUTTONS*/
+#btn-enter{background:#EE0000; width:77px; height:33px; position:absolute; top:20px; left:1235px; border:none; border-radius:3px; color:#fff; cursor:pointer; font-size:17px; font-weight:normal;}
+#free-month{background:#EE0000; width:270px; height:42px; position:relative; top:80px; left:0; border:none; border-radius:3px; color:#fff; cursor:pointer; font-size:17px; font-weight:normal; text-transform:uppercase; font-size:14px; letter-spacing:2px;}
+#free-month2{background:#EE0000; width:270px; height:50px; position:relative; top:-30px; left:-300px; border:none; border-radius:3px; color:#fff; cursor:pointer; font-size:17px; font-weight:normal; text-transform:uppercase; font-size:14px; letter-spacing:2px;}
+/* IMAGENS */
+#fundo-site{background-image:url("../img/backimg.jpg"); width:100%; height:625px; background-repeat:no-repeat; opacity:0.4;}
+.logoimg{width:200px; position:absolute; top:-10px; left:20px; cursor:pointer; background:transparent;}
+.cancelimg{cursor:pointer; width:80px; background:transparent; position:relative; top:0px; left:270px;}
+.assistirimg{cursor:pointer; width:80px; background:transparent; position:relative; top:0px; left:330px;}
+.priceimg{cursor:pointer; width:100px; background:transparent; position:relative; top:0px; left:270px; background:transparent;}
+.pc-tel{width:500px; position:relative; top:40px; left:700px;}
+/*ANIMATIONS/HOVER/ACTIVE...*/
+#btn-enter:hover{background:#FF0000;}
+#free-month:hover{background:#FF0000;}
+.cancelar:hover, .assistir:hover, .price:hover{color:#fff;}
+.cancelar:active{border-bottom:3px solid red;}
+#free-month2:hover{background:#FF0000;}
